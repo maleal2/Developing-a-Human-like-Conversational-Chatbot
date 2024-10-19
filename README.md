@@ -29,20 +29,8 @@ Data source: [https://www.kaggle.com/datasets/arashnic/fitbit ](https://www.kagg
 
 Name of the variables:
 
-## movie_lines.txt
-Contains the actual text of each utterance with the following fields:
-###	lineID
-###	characterID (who uttered the phrase)
-###	movieID
-###	character name
-### text of the utterance
-
-##movie_conversations.txt
-Describes the structure of the conversations with the following fields:
-### characterID of the first character involved in the conversation
-### characterID of the second character involved in the conversation
-### movieID of the movie where the conversation occurred
-### list of utterances that make up the conversation, in chronological order: ['lineID1', 'lineID2', ..., 'lineIDN'], which must be matched with movie_lines.txt to reconstruct the actual content.
+movie_lines.txt
+movie_conversations.txt
 
 Number of variables: 2
 
