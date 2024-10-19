@@ -20,29 +20,29 @@ Maria Leal.
 
 # Methods Used
 Long Short Term Memory with Sequal layers.
-GPT-2
-Gradio
-Python, Pytorch
+GPT-2.
+Gradio.
+Python, Pytorch.
 
 # Project Description
 Data source: [https://www.kaggle.com/datasets/arashnic/fitbit ](https://www.kaggle.com/datasets/rajathmc/cornell-moviedialog-corpus)
 
 Name of the variables:
 
-•	movie_lines.txt
+## movie_lines.txt
 Contains the actual text of each utterance with the following fields:
-o	lineID
-o	characterID (who uttered the phrase)
-o	movieID
-o	character name
-o	text of the utterance
+###	lineID
+###	characterID (who uttered the phrase)
+###	movieID
+###	character name
+### text of the utterance
 
-movie_conversations.txt
+##movie_conversations.txt
 Describes the structure of the conversations with the following fields:
-o	characterID of the first character involved in the conversation
-o	characterID of the second character involved in the conversation
-o	movieID of the movie where the conversation occurred
-o	list of utterances that make up the conversation, in chronological order: ['lineID1', 'lineID2', ..., 'lineIDN'], which must be matched with movie_lines.txt to reconstruct the actual content.
+### characterID of the first character involved in the conversation
+### characterID of the second character involved in the conversation
+### movieID of the movie where the conversation occurred
+### list of utterances that make up the conversation, in chronological order: ['lineID1', 'lineID2', ..., 'lineIDN'], which must be matched with movie_lines.txt to reconstruct the actual content.
 
 Number of variables: 2
 
